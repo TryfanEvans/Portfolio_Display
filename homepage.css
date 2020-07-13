@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "open-sans";
+  src: url(OpenSans-Regular.ttf);
+}
+
+:root {
+  --main-bg-color:rgb(108,99,255)
+}
+html {
+  font-family: "open-sans";
+  font-size:18px;
+}
+
+.homepage {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left:5%;
+  padding-right: 5%;
+}
+
+.homepage > .callToAction {
+ 
+  height: 10rem;
+  border-color: red;
+  margin: 30vh 1rem;
+}
+
+.homepage > .callToAction > h1 {
+  font-size: 4.7rem;
+  margin: 0;
+  color:var(--main-bg-color,black);
+  line-height:5rem;
+}
+
+.homepage > .callToAction > p {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.homepage > .callToAction > div {
+width:100%;
+display: flex;
+justify-content: space-evenly;
+margin-top:1rem;
+}
+
+.homepage > .callToAction > div > button, a {
+  background:none;
+  border:none;
+  vertical-align: middle;
+  font-size:1rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color:black;
+}
+
+:visited {
+  text-decoration: none;
+  color:black;
+}
+
+.homepage > .callToAction > div > button > .discord_icon {
+  height:2rem;
+  width:auto;
+  display: inline-block;
+  
+}
+
+.homepage > .callToAction > div > button > span {
+  margin-left:0.6rem;
+  margin-right:1.6rem;
+}
+
+.homepage > .callToAction > div > a > span {
+  margin-left:0.6rem;
+  margin-right:1.6rem;
+}
+.homepage img {
+  width: 32rem;
+}
+
