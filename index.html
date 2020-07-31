@@ -1,6 +1,6 @@
 <head>
   <title>Tryfan Evans, Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="homepage.css" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
   <script src="scripts.js"></script>
   <meta property="og:title" content="Tryfan Evans, Web Developer Portfolio" />
   <meta property="og:image" content="" />
@@ -14,17 +14,24 @@
   <input type="text" value="https://github.com/TryfanEvans" id="github" style="display: none;">
   <input type="text" value="Tryfan Evans#8312" id="discord" style="display: none;">
   <input type="text" value="TryfanLE@gmail.com" id="email" style="display: none;">
+  <input type='checkbox'>
+  <nav id=#navbar>
+    <a style='color:var(--main-fg-color)'>Home</a>
+    <a id='hamburger' onClick='toggleNavExpansion()'>
+      <i class="fa fa-bars fa-lg" style='margin-top:7px;position:absolute;left:0.45rem;' aria-hidden="true"> </i>
+    </a>
+    <a href='portfolio.html'>Portfolio</a>
+    <a href='resume.html'>Resume</a>
+  </nav>
+
+
   <div class="callToAction">
     <h1>Tryfan Evans</h1>
-    <p>Full Stack Developer and Designer</p>
-
-
-
-
+    <p><span style="color:var(--main-fg-color)"> Full Stack</span> Developer and Designer</p>
     <div>
       <a href="https://github.com/TryfanEvans"><i class="fa fa-github fa-2x"></i>
         <span>https://github.com/TryfanEvans</span></a>
-      <button onclick="copyToClipboard('discord')"><img class='discord_icon' src="discord_icon.png"> </img>
+      <button onclick="copyToClipboard(' discord')"><img class='discord_icon' src="discord_icon.png"> </img>
         <span> Tryfan Evans#8312</span> </button>
       <button onclick="copyToClipboard('email')"><i class="fa fa-envelope fa-2x"></i> <span>
           TryfanLE@gmail.com</span></button>
