@@ -23,8 +23,3 @@ function keyboardFocus(e) {
 
 document.documentElement.classList.remove('no-js');
 document.addEventListener('keydown', keyboardFocus, false);
-
-function toggleNavExpansion() {
-
-    console.log(document.getElementById('navbar'));
-}
